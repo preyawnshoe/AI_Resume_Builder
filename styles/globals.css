@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.popin{
+  font-family: 'Poppins', sans-serif;
+}
+
+.neomorp{
+  border-radius: 20px;
+  background: "white";
+  box-shadow:  1px 1px 5px #bebebe,
+               -5px -5px 13px #ffffff;
+}
+
+.neomorpebooks{
+  
+  background: "white";
+  box-shadow:  1px 1px 5px #bebebe,
+               -5px -5px 13px #ffffff;
+}
+
+
+.menucolor{
+  color: #606060;
+}
+
+
+
+.menushadow{
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+/* Styles for the container */
+#google_element {
+  margin-right: 1rem;
+  padding-top: 0.25rem;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  border-radius: 0.25rem;
+  /* background-color: #f8f9fa;  */
+  /* Light gray background */
+}
+/* Styles for the dropdown */
+.goog-te-combo {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the Google Translate widget frame */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+/* Hide the Google logo */
+.goog-logo-link {
+  display: none !important;
+}
+
+/* Hide the Google Translate banner */
+.goog-te-banner {
+  display: none !important;
+}
+
+.goog-te-gadget-icon{
+  display: none;
+}
+.VIpgJd-ZVi9od-xl07Ob-lTBxed{
+  display: flex;
+}
+
+.goog-te-gadget-simple{
+  border-radius: 5px;
+}
+
+/* Custom Scrollbar Styling */
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0, #ff0081); /* Gradient mix of purple, blue, and pink */
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #9c4dcc, #6c1bb0, #ff66b2); /* Slightly lighter gradient on hover */
+}
